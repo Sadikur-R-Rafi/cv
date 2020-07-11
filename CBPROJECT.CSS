@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: blanchedalmond;
+
+    font-family: 'Bangers', cursive;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: burlywood;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+header {}
+
+.profile-image {
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.header-bio {
+    float: left;
+    padding: 30px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: firebrick;
+}
+
+.header-contact {
+    float: right;
+    padding: 40px;
+}
+
+.header-contact a {
+    text-decoration: none;
+    color: fuchsia;
+
+
+}
+
+.header-contact a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.div-clear {
+    clear: both;
+}
+
+.HR {
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+#personal-section {}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+}
+
+.right-div {
+    width: 70%;
+    float: right;
+    margin: auto;
+
+    background-color: darkorange;
+    padding-left: 2px;
+}
+
+.right-div h3,
+h5 {
+    color: darkmagenta;
+}
+
+.common-hr {
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+
+}
+
+.edu-tem-left {
+
+    float: left;
+    width: 45%;
+
+}
+
+.edu-tem-right {
+    float: right;
+    padding: 2px;
+    width: 45%;
+}
+
+.footer-container {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.footer-container a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.footer-container p {
+    color: aliceblue;
+    text-decoration: none;
+    margin-bottom: 0;
+
+}
